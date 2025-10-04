@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Command;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Command\OneTimeTaskMarkCommand;
 use HeyFrame\Deployment\Services\OneTimeTasks;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Tester\CommandTester;
 

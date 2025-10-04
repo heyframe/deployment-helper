@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Integration;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Event\PostDeploy;
 use HeyFrame\Deployment\Helper\ProcessHelper;
 use HeyFrame\Deployment\Integration\PlatformSHSubscriber;
 use HeyFrame\Deployment\Struct\RunConfiguration;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\Console\Output\OutputInterface;
 use Zalas\PHPUnit\Globals\Attribute\Env;

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Services;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Helper\ProcessHelper;
 use HeyFrame\Deployment\Services\PluginLoader;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(PluginLoader::class)]
 class PluginLoaderTest extends TestCase

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Services;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\MockObject\MockObject;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Config\ProjectConfiguration;
 use HeyFrame\Deployment\Config\ProjectExtensionManagement;
 use HeyFrame\Deployment\Helper\ProcessHelper;
 use HeyFrame\Deployment\Services\PluginHelper;
 use HeyFrame\Deployment\Services\PluginLoader;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\MockObject\MockObject;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(PluginHelper::class)]
 class PluginHelperTest extends TestCase

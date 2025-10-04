@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Command;
 
+use HeyFrame\Deployment\Command\OneTimeTaskUnmarkCommand;
+use HeyFrame\Deployment\Services\OneTimeTasks;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use HeyFrame\Deployment\Command\OneTimeTaskUnmarkCommand;
-use HeyFrame\Deployment\Services\OneTimeTasks;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Tester\CommandTester;
 

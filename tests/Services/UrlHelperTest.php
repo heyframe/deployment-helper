@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Services;
 
+use HeyFrame\Deployment\Services\UrlHelper;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
-use HeyFrame\Deployment\Services\UrlHelper;
 
 /**
  * @internal

@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Config;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Config\ProjectConfiguration;
 use HeyFrame\Deployment\Config\ProjectHooks;
 use HeyFrame\Deployment\Config\ProjectMaintenance;
 use HeyFrame\Deployment\Config\ProjectStore;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 
 #[CoversClass(ProjectConfiguration::class)]
 #[CoversClass(ProjectHooks::class)]

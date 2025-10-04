@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Integration\Fastly;
 
+use HeyFrame\Deployment\Integration\Fastly\FastlyAPIClient;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use HeyFrame\Deployment\Integration\Fastly\FastlyAPIClient;
 use Symfony\Component\HttpClient\MockHttpClient;
 use Symfony\Component\HttpClient\Response\MockResponse;
 use Symfony\Contracts\HttpClient\HttpClientInterface;

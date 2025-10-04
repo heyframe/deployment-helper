@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Command;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Command\RunCommand;
+use HeyFrame\Deployment\Services\HeyFrameState;
 use HeyFrame\Deployment\Services\HookExecutor;
 use HeyFrame\Deployment\Services\InstallationManager;
-use HeyFrame\Deployment\Services\HeyFrameState;
 use HeyFrame\Deployment\Services\UpgradeManager;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Tester\CommandTester;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Zalas\PHPUnit\Globals\Attribute\Env;

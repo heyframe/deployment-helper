@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Integration\Fastly;
 
+use HeyFrame\Deployment\Integration\Fastly\FastlyContext;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use HeyFrame\Deployment\Integration\Fastly\FastlyContext;
 
 #[CoversClass(FastlyContext::class)]
 class FastlyContextTest extends TestCase

@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace HeyFrame\Deployment\Tests\Services;
 
 use Composer\InstalledVersions;
+use HeyFrame\Deployment\Services\AppLoader;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use HeyFrame\Deployment\Services\AppLoader;
 
 #[CoversClass(AppLoader::class)]
 class AppLoaderTest extends TestCase

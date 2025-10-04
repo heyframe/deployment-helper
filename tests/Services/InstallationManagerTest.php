@@ -5,17 +5,17 @@ declare(strict_types=1);
 namespace HeyFrame\Deployment\Tests\Services;
 
 use Doctrine\DBAL\Connection;
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Config\ProjectConfiguration;
 use HeyFrame\Deployment\Helper\ProcessHelper;
 use HeyFrame\Deployment\Services\AccountService;
 use HeyFrame\Deployment\Services\AppHelper;
+use HeyFrame\Deployment\Services\HeyFrameState;
 use HeyFrame\Deployment\Services\HookExecutor;
 use HeyFrame\Deployment\Services\InstallationManager;
 use HeyFrame\Deployment\Services\PluginHelper;
-use HeyFrame\Deployment\Services\HeyFrameState;
 use HeyFrame\Deployment\Struct\RunConfiguration;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\OutputInterface;
 use Zalas\PHPUnit\Globals\Attribute\Env;
 

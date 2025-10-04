@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Helper;
 
+use HeyFrame\Deployment\Helper\EnvironmentHelper;
 use PHPUnit\Framework\Attributes\BackupGlobals;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
-use HeyFrame\Deployment\Helper\EnvironmentHelper;
 
 /**
  * @internal

@@ -6,10 +6,10 @@ namespace HeyFrame\Deployment\Tests\Services;
 
 use Composer\InstalledVersions;
 use Doctrine\DBAL\Connection;
+use HeyFrame\Deployment\Services\HeyFrameState;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
-use HeyFrame\Deployment\Services\HeyFrameState;
 
 #[CoversClass(HeyFrameState::class)]
 class HeyFrameStateTest extends TestCase

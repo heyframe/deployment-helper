@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Integration;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\MockObject\MockObject;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Config\ProjectConfiguration;
 use HeyFrame\Deployment\Event\PostDeploy;
 use HeyFrame\Deployment\Helper\ProcessHelper;
 use HeyFrame\Deployment\Integration\ClearAlwaysCacheSubscriber;
 use HeyFrame\Deployment\Struct\RunConfiguration;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\MockObject\MockObject;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\NullOutput;
 
 #[CoversClass(ClearAlwaysCacheSubscriber::class)]

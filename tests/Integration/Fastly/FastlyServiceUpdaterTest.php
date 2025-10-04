@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace HeyFrame\Deployment\Tests\Integration\Fastly;
 
-use PHPUnit\Framework\Attributes\CoversClass;
-use PHPUnit\Framework\TestCase;
 use HeyFrame\Deployment\Event\PostDeploy;
 use HeyFrame\Deployment\Integration\Fastly\FastlyAPIClient;
 use HeyFrame\Deployment\Integration\Fastly\FastlyServiceUpdater;
 use HeyFrame\Deployment\Struct\RunConfiguration;
+use PHPUnit\Framework\Attributes\CoversClass;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\Filesystem\Filesystem;
 use Zalas\PHPUnit\Globals\Attribute\Env;
